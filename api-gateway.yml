@@ -5,6 +5,7 @@ spring:
     name: api-gateway
   main:
     web-application-type: reactive
+    allow-circular-references : true
   cloud:
     gateway:
       httpclient:
